@@ -26,6 +26,8 @@ import Account from './pages/Account';
 import Project from './pages/Project';
 import ProjectDetails from './pages/ProjectDetails';
 import BlogClassic from './pages/BlogClassic';
+import GalleryClassic from './pages/GalleryClassic';
+
 import BlogDetails from './pages/BlogDetails';
 import Contact from './pages/Contact';
 import Register from './pages/Register';
@@ -89,6 +91,8 @@ function App() {
             <Route path="/project/:title" element={<ProjectDetails />} />
 
             <Route path="/blog" element={<BlogClassic />} />
+            <Route path="/gallery" element={<GalleryClassic />} />
+
             <Route path="/blog/:title" element={<BlogDetails />} />
 
             <Route path="/contact" element={<Contact />} />

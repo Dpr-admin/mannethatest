@@ -8,7 +8,7 @@ import Service from '../components/Service';
 import AboutTwo from '../components/AboutTwo';
 import FloorPlan from './../components/FloorPlan';
 import CounterTwo from '../components/CounterTwo';
-import Gallery from '../components/Gallery';
+// import Gallery from '../components/Gallery';
 import Apartment from './../components/Apartment';
 import MessageTwo from '../components/MessageTwo';
 import BlogTwo from './../components/BlogTwo';

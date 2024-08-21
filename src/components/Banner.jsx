@@ -28,12 +28,12 @@ const Banner = () => {
                                     <img src="assets/images/shapes/shape-moon.png" alt="" className="shape-element three"/>
                                 </div>  
                             </div>
-                            <div className="col-lg-12">
+                            {/* <div className="col-lg-12">
 
-                                {/* Tab Filter */}
+                               
                                 <TabFilter colClass="col-lg-3 col-sm-6 col-xs-6"/>
                                 
-                            </div>
+                            </div> */}
                             
                         </div>
                     </div>

@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import NavMenu from './NavMenu';
-import Logo from './Logo';
+// import Logo from './Logo';
+import Mannetha from './Mannetha'
 import { MobileMenuContext } from '../contextApi/MobileMenuContext';
 import { OffCanvasContext } from '../contextApi/OffCanvasContext';
 import { ScrollHideContext } from '../contextApi/ScrollHideContext';
@@ -35,7 +36,7 @@ const Header = (props) => {
                         {
                             props.logoBlack && (
                                 <div className="logo">
-                                    <Logo/>
+                                    <Mannetha/>
                                 </div>
                             )
                         }

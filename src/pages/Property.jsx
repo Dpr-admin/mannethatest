@@ -9,19 +9,19 @@ import PageTitle from '../common/PageTitle';
 const Property = () => {
     return (
         <>
-        <PageTitle title="CityScape - Property" />
+        <PageTitle title="Mannetha Infra" />
 
         <main className="body-bg">
             
             {/* Header */}
             <Header 
-                headerClass="dark-header has-border" 
-                logoBlack={false}
-                logoWhite={true}
+                headerClass="light-header has-border" 
+                logoBlack={true}
+                // logoWhite={true}
                 headerMenusClass="mx-auto"
-                btnClass="btn btn-outline-main btn-outline-main-dark d-lg-block d-none"
-                btnLink="/add-new-listing"
-                btnText="Add Listing"
+                btnClass="btn btn-outline-main btn-outline-main-light d-lg-block d-none"
+                btnLink="/contact"
+                btnText="Visit Us"
                 spanClass="icon-right text-gradient" 
                 showHeaderBtn={true}
                 showOffCanvasBtn={false}

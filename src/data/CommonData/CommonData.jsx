@@ -65,7 +65,7 @@ export const starRatings = [
 export const topHeaderInfos = [
     {
         icon: <i className="fas fa-phone"></i>,
-        text: '(629) 555-0129',
+        text: '+91 9829829899',
         link: 'tel:'
     },
     {
@@ -85,75 +85,117 @@ export const topHeaderInfos = [
 export const navMenus = [
     {
       text: "Home",
-      path: "#",
+      path: "/",
       submenus: [
-        {
-            text: "Home One",
-            path: "/",
-        },
-        {
-            text: "Home Two",
-            path: "/home-two",
-        },
-        {
-            text: "Home Three",
-            path: "/home-three",
-        },
+        // {
+        //     text: "Home One",
+        //     path: "/",
+        // },
+        // {
+        //     text: "Home Two",
+        //     path: "/home-two",
+        // },
+        // {
+        //     text: "Home Three",
+        //     path: "/home-three",
+        // },
       ],
     },
     {
-      text: "Pages",
-      path: "#",
-      submenus: [
-        {
-            text: "Property",
-            path: "/property",
-        },
-        {
-            text: "Property Sidebar",
-            path: "/property-sidebar",
-        },
-        {
-            text: "Add New Listing",
-            path: "/add-new-listing",
-        },
-        {
-            text: "Map Location",
-            path: "/map-location",
-        },
-        {
-            text: "About Us",
-            path: "/about-us",
-        },
-        {
-            text: "Faq",
-            path: "/faq",
-        },
-        {
-            text: "Cart",
-            path: "/cart",
-        },
-        {
-            text: "Checkout",
-            path: "/checkout",
-        },
-        {
-            text: "Login",
-            path: "/login",
-        },
-        {
-            text: "Account",
-            path: "/account",
-        }
-      ],
+      text: "About Us",
+      path: "/about-us",
+    //   submenus: [
+    //     {
+    //         text: "Property",
+    //         path: "/property",
+    //     },
+    //     {
+    //         text: "Property Sidebar",
+    //         path: "/property-sidebar",
+    //     },
+    //     {
+    //         text: "Add New Listing",
+    //         path: "/add-new-listing",
+    //     },
+    //     {
+    //         text: "Map Location",
+    //         path: "/map-location",
+    //     },
+    //     {
+    //         text: "About Us",
+    //         path: "/about-us",
+    //     },
+    //     {
+    //         text: "Faq",
+    //         path: "/faq",
+    //     },
+    //     {
+    //         text: "Cart",
+    //         path: "/cart",
+    //     },
+    //     {
+    //         text: "Checkout",
+    //         path: "/checkout",
+    //     },
+    //     {
+    //         text: "Login",
+    //         path: "/login",
+    //     },
+    //     {
+    //         text: "Account",
+    //         path: "/account",
+    //     }
+    //   ],
     },
     {
-      text: "Project",
-      path: "/project",
+      text: "Projects",
+      path: "/property",
+    //   submenus: [
+    //     {
+    //         text: "Property",
+    //         path: "/property",
+    //     },
+    //     {
+    //         text: "Property Sidebar",
+    //         path: "/property-sidebar",
+    //     },
+    //     {
+    //         text: "Add New Listing",
+    //         path: "/add-new-listing",
+    //     },
+    //     {
+    //         text: "Map Location",
+    //         path: "/map-location",
+    //     },
+    //     {
+    //         text: "About Us",
+    //         path: "/about-us",
+    //     },
+    //     {
+    //         text: "Faq",
+    //         path: "/faq",
+    //     },
+    //     {
+    //         text: "Cart",
+    //         path: "/cart",
+    //     },
+    //     {
+    //         text: "Checkout",
+    //         path: "/checkout",
+    //     },
+    //     {
+    //         text: "Login",
+    //         path: "/login",
+    //     },
+    //     {
+    //         text: "Account",
+    //         path: "/account",
+    //     }
+    //   ],
     },
     {
-      text: "Blog",
-      path: "/blog"
+      text: "Gallery",
+      path: "/gallery",
     },
     {
       text: "Contact",

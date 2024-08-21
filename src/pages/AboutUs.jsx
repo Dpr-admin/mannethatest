@@ -11,16 +11,16 @@ import PageTitle from '../common/PageTitle';
 const AboutUs = () => {
     return (
         <>
-            <PageTitle title="CityScape - About Us" />
+                  <PageTitle title="Mannetha Infra" />
             {/* Header */}
             <Header 
-                headerClass="dark-header has-border" 
-                logoBlack={false}
-                logoWhite={true}
+                headerClass="light-header has-border" 
+                logoBlack={true}
+                // logoWhite={true}
                 headerMenusClass="mx-auto"
-                btnClass="btn btn-outline-main btn-outline-main-dark d-lg-block d-none"
-                btnLink="/add-new-listing"
-                btnText="Add Listing"
+                btnClass="btn btn-outline-main btn-outline-main-light d-lg-block d-none"
+                btnLink="/contact"
+                btnText="Visit Us"
                 spanClass="icon-right text-gradient" 
                 showHeaderBtn={true}
                 showOffCanvasBtn={false}
@@ -39,7 +39,7 @@ const AboutUs = () => {
             <Team/>
 
             <PropertyTypeThree/> 
-
+    
             {/* Cta */}
             <Cta ctaClass=""/>
 

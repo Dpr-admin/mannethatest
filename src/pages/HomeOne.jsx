@@ -19,7 +19,7 @@ import PageTitle from '../common/PageTitle';
 const HomeOne = () => {
     return (
         <>
-         <PageTitle title="CityScape - Home Page" />
+         <PageTitle title="Mannetha Infra" />
             <OffCanvas/>
             <MobileMenu/>
             
@@ -35,8 +35,8 @@ const HomeOne = () => {
                     logoWhite={false}
                     headerMenusClass=""
                     btnClass="btn btn-outline-light d-lg-block d-none"
-                    btnLink="/property"
-                    btnText="Sell Property"
+                    btnLink="/contact"
+                    btnText="Visit Us"
                     spanClass="icon-right text-gradient" 
                     showHeaderBtn={true}
                     showOffCanvasBtn={true}
@@ -57,13 +57,13 @@ const HomeOne = () => {
                 <PropertyType/>
 
                 {/* Video Popup */}
-                <VideoPopup/>
+                {/* <VideoPopup/> */}
 
                 {/* Counter */}
-                <Counter/>
+                {/* <Counter/> */}
 
                 {/* Message */}
-                <Message/>
+                {/* <Message/> */}
 
                 {/* Portfolio */}
                 <Portfolio/>

@@ -3,7 +3,7 @@ import React from 'react';
 // Banner One
 import BannerImg from '../../../public/assets/images/thumbs/banner-img.png'; 
 export const bannerContent = {
-    subtitle: 'FinTech Fusion',
+    subtitle: 'Mannetha Infra',
     title: 'Invest today in You ',
     gradientTitle: 'Dream Home',
     desc: 'Unlock the Power of Real Estate Making Your Real Estate Dreams a Reality Real Estate here Unlock the Power of Real Estate',
@@ -47,29 +47,29 @@ export const aboutContent = {
 import propertyThumb1 from '../../../public/assets/images/thumbs/property-1.png'; 
 import propertyThumb2 from '../../../public/assets/images/thumbs/property-2.png'; 
 import propertyThumb3 from '../../../public/assets/images/thumbs/property-3.png'; 
-import propertyThumb4 from '../../../public/assets/images/thumbs/property-4.png'; 
-import propertyThumb5 from '../../../public/assets/images/thumbs/property-5.png'; 
-import propertyThumb6 from '../../../public/assets/images/thumbs/property-6.png'; 
-import propertyThumb7 from '../../../public/assets/images/thumbs/property-7.png'; 
-import propertyThumb8 from '../../../public/assets/images/thumbs/property-8.png'; 
-import propertyThumb9 from '../../../public/assets/images/thumbs/property-9.png'; 
-import propertyThumb10 from '../../../public/assets/images/thumbs/property-10.png'; 
-import propertyThumb11 from '../../../public/assets/images/thumbs/property-11.png'; 
-import propertyThumb12 from '../../../public/assets/images/thumbs/property-12.png'; 
+// import propertyThumb4 from '../../../public/assets/images/thumbs/property-4.png'; 
+// import propertyThumb5 from '../../../public/assets/images/thumbs/property-5.png'; 
+// import propertyThumb6 from '../../../public/assets/images/thumbs/property-6.png'; 
+// import propertyThumb7 from '../../../public/assets/images/thumbs/property-7.png'; 
+// import propertyThumb8 from '../../../public/assets/images/thumbs/property-8.png'; 
+// import propertyThumb9 from '../../../public/assets/images/thumbs/property-9.png'; 
+// import propertyThumb10 from '../../../public/assets/images/thumbs/property-10.png'; 
+// import propertyThumb11 from '../../../public/assets/images/thumbs/property-11.png'; 
+// import propertyThumb12 from '../../../public/assets/images/thumbs/property-12.png'; 
 export const properties = [
     {
         id: 1,
         thumb: propertyThumb1,
         price: '$300.00',
-        day: '/per day',
-        title: 'Turning Dreams into Addresses Home State ',
+        day: '',
+        title: 'Sri Surya Teja Elite ',
         desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
         locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
+        location: 'Madhurawada - vishakapatnam',
         amenities: [
             {
                 icon: <i className="fas fa-bed"></i>,
-                text: '2 Beds',
+                text: '3 Beds',
             },
             {
                 icon: <i className="fas fa-bath"></i>,
@@ -79,18 +79,18 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'Newest',
         dataStatuses: 'Sell',
-        dataTypes: 'Houses',
-        dataLocations: "Bangladesh",
+        dataTypes: 'Apartments',
+        dataLocations: "Vishakapatnam",
     },
     {
         id: 2,
         thumb: propertyThumb2,
-        price: '$450.00',
-        day: '/per day',
-        title: 'Your journey home ownership starts here too ',
+        price: '',
+        day: ' 8.3 Acres',
+        title: 'Urban Green Farms  ',
         desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
         locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
+        location: 'Dubbacherla village, Maheshwaram Mondal,R R District',
         amenities: [
             {
                 icon: <i className="fas fa-bed"></i>,
@@ -104,8 +104,8 @@ export const properties = [
         btnText: 'Book Now',
         dataSort: 'Best Seller',
         dataStatuses: 'Buy',
-        dataTypes: 'Apartments',
-        dataLocations: "Japan",
+        dataTypes: 'Farm Plots',
+        dataLocations: "Ranga Reddy District",
     },
     {
         id: 3,
@@ -132,231 +132,231 @@ export const properties = [
         dataTypes: 'Office',
         dataLocations: "Korea",
     },
-    {
-        id: 4,
-        thumb: propertyThumb4,
-        price: '$600.00',
-        day: '/per day',
-        title: 'Home is Where Your Story Begins ',
-        desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
-        locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
-        amenities: [
-            {
-                icon: <i className="fas fa-bed"></i>,
-                text: '5 Beds',
-            },
-            {
-                icon: <i className="fas fa-bath"></i>,
-                text: ' 4 Baths ',
-            }
-        ],
-        btnText: 'Book Now',
-        dataSort: 'Low Price',
-        dataStatuses: 'Sell',
-        dataTypes: 'Villa',
-        dataLocations: "Singapore",
-    },
-    {
-        id: 5,
-        thumb: propertyThumb5,
-        price: '$650.00',
-        day: '/per day',
-        title: 'Building Trust, One Home at a Time',
-        desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
-        locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
-        amenities: [
-            {
-                icon: <i className="fas fa-bed"></i>,
-                text: '6 Beds',
-            },
-            {
-                icon: <i className="fas fa-bath"></i>,
-                text: ' 4 Baths ',
-            }
-        ],
-        btnText: 'Book Now',
-        dataSort: 'High Price',
-        dataStatuses: 'Buy',
-        dataTypes: 'Houses',
-        dataLocations: "Germany",
-    },
-    {
-        id: 6,
-        thumb: propertyThumb6,
-        price: '$700.00',
-        day: '/per day',
-        title: 'Brick by Brick Your Dream Home Awaits ',
-        desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
-        locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
-        amenities: [
-            {
-                icon: <i className="fas fa-bed"></i>,
-                text: '7 Beds',
-            },
-            {
-                icon: <i className="fas fa-bath"></i>,
-                text: ' 3 Baths ',
-            }
-        ],
-        btnText: 'Book Now',
-        dataSort: 'Medium Price',
-        dataStatuses: 'Rent',
-        dataTypes: 'Apartments',
-        dataLocations: "Thailand",
-    },
-    {
-        id: 7,
-        thumb: propertyThumb7,
-        price: '$350.00',
-        day: '/per day',
-        title: 'Guiding You Home with Experience',
-        desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
-        locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
-        amenities: [
-            {
-                icon: <i className="fas fa-bed"></i>,
-                text: '7 Beds',
-            },
-            {
-                icon: <i className="fas fa-bath"></i>,
-                text: ' 3 Baths ',
-            }
-        ],
-        btnText: 'Book Now',
-        dataSort: 'Best Seller',
-        dataStatuses: 'Sell',
-        dataTypes: 'Office',
-        dataLocations: "Bangladesh",
-    },
-    {
-        id: 8,
-        thumb: propertyThumb8,
-        price: '$530.00',
-        day: '/per day',
-        title: 'A Tradition of Trust in Real Estate ',
-        desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
-        locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
-        amenities: [
-            {
-                icon: <i className="fas fa-bed"></i>,
-                text: '7 Beds',
-            },
-            {
-                icon: <i className="fas fa-bath"></i>,
-                text: ' 3 Baths ',
-            }
-        ],
-        btnText: 'Book Now',
-        dataSort: 'Best Match',
-        dataStatuses: 'Buy',
-        dataTypes: 'Villa',
-        dataLocations: "Japan",
-    },
-    {
-        id: 9,
-        thumb: propertyThumb9,
-        price: '$560.00',
-        day: '/per day',
-        title: 'Target Audience and Reflect the Values',
-        desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
-        locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
-        amenities: [
-            {
-                icon: <i className="fas fa-bed"></i>,
-                text: '7 Beds',
-            },
-            {
-                icon: <i className="fas fa-bath"></i>,
-                text: ' 3 Baths ',
-            }
-        ],
-        btnText: 'Book Now',
-        dataSort: 'Low Price',
-        dataStatuses: 'Rent',
-        dataTypes: 'Houses',
-        dataLocations: "Korea",
-    },
-    {
-        id: 10,
-        thumb: propertyThumb10,
-        price: '$680.00',
-        day: '/per day',
-        title: 'Making House Hunting an Adventure ',
-        desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
-        locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
-        amenities: [
-            {
-                icon: <i className="fas fa-bed"></i>,
-                text: '7 Beds',
-            },
-            {
-                icon: <i className="fas fa-bath"></i>,
-                text: ' 3 Baths ',
-            }
-        ],
-        btnText: 'Book Now',
-        dataSort: 'High Price',
-        dataStatuses: 'Sell',
-        dataTypes: 'Apartments',
-        dataLocations: "Singapore",
-    },
-    {
-        id: 11,
-        thumb: propertyThumb11,
-        price: '$580.00',
-        day: '/per day',
-        title: 'Opening New Doors to Your Future ',
-        desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
-        locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
-        amenities: [
-            {
-                icon: <i className="fas fa-bed"></i>,
-                text: '7 Beds',
-            },
-            {
-                icon: <i className="fas fa-bath"></i>,
-                text: ' 3 Baths ',
-            }
-        ],
-        btnText: 'Book Now',
-        dataSort: 'Newest',
-        dataStatuses: 'Buy',
-        dataTypes: 'Office',
-        dataLocations: "Germany",
-    },
-    {
-        id: 12,
-        thumb: propertyThumb12,
-        price: '$563.00',
-        day: '/per day',
-        title: 'Your Journey to Home Starts Here ',
-        desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
-        locationIcon: <i className="fas fa-map-marker-alt"></i>,
-        location: '66 Broklyant, New York America',
-        amenities: [
-            {
-                icon: <i className="fas fa-bed"></i>,
-                text: '7 Beds',
-            },
-            {
-                icon: <i className="fas fa-bath"></i>,
-                text: ' 3 Baths ',
-            }
-        ],
-        btnText: 'Book Now',
-        dataSort: 'Best Seller',    
-        dataStatuses: 'Rent',
-        dataTypes: 'Villa',
-        dataLocations: "Thailand",
-    },
+    // {
+    //     id: 4,
+    //     thumb: propertyThumb4,
+    //     price: '$600.00',
+    //     day: '/per day',
+    //     title: 'Home is Where Your Story Begins ',
+    //     desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
+    //     locationIcon: <i className="fas fa-map-marker-alt"></i>,
+    //     location: '66 Broklyant, New York America',
+    //     amenities: [
+    //         {
+    //             icon: <i className="fas fa-bed"></i>,
+    //             text: '5 Beds',
+    //         },
+    //         {
+    //             icon: <i className="fas fa-bath"></i>,
+    //             text: ' 4 Baths ',
+    //         }
+    //     ],
+    //     btnText: 'Book Now',
+    //     dataSort: 'Low Price',
+    //     dataStatuses: 'Sell',
+    //     dataTypes: 'Villa',
+    //     dataLocations: "Singapore",
+    // },
+    // {
+    //     id: 5,
+    //     thumb: propertyThumb5,
+    //     price: '$650.00',
+    //     day: '/per day',
+    //     title: 'Building Trust, One Home at a Time',
+    //     desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
+    //     locationIcon: <i className="fas fa-map-marker-alt"></i>,
+    //     location: '66 Broklyant, New York America',
+    //     amenities: [
+    //         {
+    //             icon: <i className="fas fa-bed"></i>,
+    //             text: '6 Beds',
+    //         },
+    //         {
+    //             icon: <i className="fas fa-bath"></i>,
+    //             text: ' 4 Baths ',
+    //         }
+    //     ],
+    //     btnText: 'Book Now',
+    //     dataSort: 'High Price',
+    //     dataStatuses: 'Buy',
+    //     dataTypes: 'Houses',
+    //     dataLocations: "Germany",
+    // },
+    // {
+    //     id: 6,
+    //     thumb: propertyThumb6,
+    //     price: '$700.00',
+    //     day: '/per day',
+    //     title: 'Brick by Brick Your Dream Home Awaits ',
+    //     desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
+    //     locationIcon: <i className="fas fa-map-marker-alt"></i>,
+    //     location: '66 Broklyant, New York America',
+    //     amenities: [
+    //         {
+    //             icon: <i className="fas fa-bed"></i>,
+    //             text: '7 Beds',
+    //         },
+    //         {
+    //             icon: <i className="fas fa-bath"></i>,
+    //             text: ' 3 Baths ',
+    //         }
+    //     ],
+    //     btnText: 'Book Now',
+    //     dataSort: 'Medium Price',
+    //     dataStatuses: 'Rent',
+    //     dataTypes: 'Apartments',
+    //     dataLocations: "Thailand",
+    // },
+    // {
+    //     id: 7,
+    //     thumb: propertyThumb7,
+    //     price: '$350.00',
+    //     day: '/per day',
+    //     title: 'Guiding You Home with Experience',
+    //     desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
+    //     locationIcon: <i className="fas fa-map-marker-alt"></i>,
+    //     location: '66 Broklyant, New York America',
+    //     amenities: [
+    //         {
+    //             icon: <i className="fas fa-bed"></i>,
+    //             text: '7 Beds',
+    //         },
+    //         {
+    //             icon: <i className="fas fa-bath"></i>,
+    //             text: ' 3 Baths ',
+    //         }
+    //     ],
+    //     btnText: 'Book Now',
+    //     dataSort: 'Best Seller',
+    //     dataStatuses: 'Sell',
+    //     dataTypes: 'Office',
+    //     dataLocations: "Bangladesh",
+    // },
+    // {
+    //     id: 8,
+    //     thumb: propertyThumb8,
+    //     price: '$530.00',
+    //     day: '/per day',
+    //     title: 'A Tradition of Trust in Real Estate ',
+    //     desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
+    //     locationIcon: <i className="fas fa-map-marker-alt"></i>,
+    //     location: '66 Broklyant, New York America',
+    //     amenities: [
+    //         {
+    //             icon: <i className="fas fa-bed"></i>,
+    //             text: '7 Beds',
+    //         },
+    //         {
+    //             icon: <i className="fas fa-bath"></i>,
+    //             text: ' 3 Baths ',
+    //         }
+    //     ],
+    //     btnText: 'Book Now',
+    //     dataSort: 'Best Match',
+    //     dataStatuses: 'Buy',
+    //     dataTypes: 'Villa',
+    //     dataLocations: "Japan",
+    // },
+    // {
+    //     id: 9,
+    //     thumb: propertyThumb9,
+    //     price: '$560.00',
+    //     day: '/per day',
+    //     title: 'Target Audience and Reflect the Values',
+    //     desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
+    //     locationIcon: <i className="fas fa-map-marker-alt"></i>,
+    //     location: '66 Broklyant, New York America',
+    //     amenities: [
+    //         {
+    //             icon: <i className="fas fa-bed"></i>,
+    //             text: '7 Beds',
+    //         },
+    //         {
+    //             icon: <i className="fas fa-bath"></i>,
+    //             text: ' 3 Baths ',
+    //         }
+    //     ],
+    //     btnText: 'Book Now',
+    //     dataSort: 'Low Price',
+    //     dataStatuses: 'Rent',
+    //     dataTypes: 'Houses',
+    //     dataLocations: "Korea",
+    // },
+    // {
+    //     id: 10,
+    //     thumb: propertyThumb10,
+    //     price: '$680.00',
+    //     day: '/per day',
+    //     title: 'Making House Hunting an Adventure ',
+    //     desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
+    //     locationIcon: <i className="fas fa-map-marker-alt"></i>,
+    //     location: '66 Broklyant, New York America',
+    //     amenities: [
+    //         {
+    //             icon: <i className="fas fa-bed"></i>,
+    //             text: '7 Beds',
+    //         },
+    //         {
+    //             icon: <i className="fas fa-bath"></i>,
+    //             text: ' 3 Baths ',
+    //         }
+    //     ],
+    //     btnText: 'Book Now',
+    //     dataSort: 'High Price',
+    //     dataStatuses: 'Sell',
+    //     dataTypes: 'Apartments',
+    //     dataLocations: "Singapore",
+    // },
+    // {
+    //     id: 11,
+    //     thumb: propertyThumb11,
+    //     price: '$580.00',
+    //     day: '/per day',
+    //     title: 'Opening New Doors to Your Future ',
+    //     desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
+    //     locationIcon: <i className="fas fa-map-marker-alt"></i>,
+    //     location: '66 Broklyant, New York America',
+    //     amenities: [
+    //         {
+    //             icon: <i className="fas fa-bed"></i>,
+    //             text: '7 Beds',
+    //         },
+    //         {
+    //             icon: <i className="fas fa-bath"></i>,
+    //             text: ' 3 Baths ',
+    //         }
+    //     ],
+    //     btnText: 'Book Now',
+    //     dataSort: 'Newest',
+    //     dataStatuses: 'Buy',
+    //     dataTypes: 'Office',
+    //     dataLocations: "Germany",
+    // },
+    // {
+    //     id: 12,
+    //     thumb: propertyThumb12,
+    //     price: '$563.00',
+    //     day: '/per day',
+    //     title: 'Your Journey to Home Starts Here ',
+    //     desc: 'Real Estate is a vast industry that deals with the buying, selling, and renting of properties. It inv transactions related to residential, commercial, and industrial properties. Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fmentum ullamcorper viverra laoreet Aliquam eros justo, posuere lobor mattis fmentum ullam',
+    //     locationIcon: <i className="fas fa-map-marker-alt"></i>,
+    //     location: '66 Broklyant, New York America',
+    //     amenities: [
+    //         {
+    //             icon: <i className="fas fa-bed"></i>,
+    //             text: '7 Beds',
+    //         },
+    //         {
+    //             icon: <i className="fas fa-bath"></i>,
+    //             text: ' 3 Baths ',
+    //         }
+    //     ],
+    //     btnText: 'Book Now',
+    //     dataSort: 'Best Seller',    
+    //     dataStatuses: 'Rent',
+    //     dataTypes: 'Villa',
+    //     dataLocations: "Thailand",
+    // },
 ]
 
 
