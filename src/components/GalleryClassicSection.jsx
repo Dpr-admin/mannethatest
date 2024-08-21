@@ -32,14 +32,11 @@
 
 // export default GalleryClassicSection;
 
-
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css'; 
-import 'slick-carousel/slick/slick-theme.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const GalleryClassicSection = () => {
-    const images = [  
+    const images = [
         '/images/gallery1.jpg',
         '/images/gallery2.jpg',
         '/images/gallery3.jpg',
@@ -59,50 +56,39 @@ const GalleryClassicSection = () => {
         '/images/gallery17.jpg',
         '/images/gallery18.jpg',
         '/images/gallery19.jpg',
-        '/images/gallery20.jpg', ];
-
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    };
+        '/images/gallery20.jpg',
+    ];
 
     return (
-        <Slider {...settings}>
-            {images.map((image, index) => (
-                <div key={index}>
-                    <img src={image} alt={`Gallery ${index + 1}`} className="img-fluid" />
-                </div>
-            ))}
-        </Slider>
+        <div id="galleryCarousel" className="carousel slide" data-ride="carousel">
+            <div className="carousel-inner">
+                {images.map((image, index) => (
+                    <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
+                        <img src={image} alt={`Gallery ${index + 1}`} className="d-block w-100" />
+                    </div>
+                ))}
+            </div>
+            <a className="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
+            </a>
+            <ol className="carousel-indicators">
+                {images.map((_, index) => (
+                    <li
+                        key={index}
+                        data-target="#galleryCarousel"
+                        data-slide-to={index}
+                        className={index === 0 ? 'active' : ''}
+                    ></li>
+                ))}
+            </ol>
+        </div>
     );
 };
 
 export default GalleryClassicSection;
+
